@@ -9,6 +9,14 @@
  * All rights reserved.
  *
  */
+/*
+ * @modified Carl Saldanha <csaldanha@fetchrobotics.com>
+ */
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
 
 #ifndef _DWM_API_H_
 #define _DWM_API_H_
@@ -905,3 +913,6 @@ int dwm_uwb_scan_result_get(dwm_uwb_scan_result_t *p_result);
 
 #endif //_DWM_API_H_
 
+#ifdef __cplusplus
+} // extern "C"
+#endif

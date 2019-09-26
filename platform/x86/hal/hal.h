@@ -9,6 +9,14 @@
  * All rights reserved.
  *
  */
+/*
+ * @modified Carl Saldanha <csaldanha@fetchrobotics.com>
+ */
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
 #ifndef _HAL_H_
 #define _HAL_H_
 
@@ -61,3 +69,6 @@ int HAL_DevNum();
 
 #endif //_HAL_H_
 
+#ifdef __cplusplus
+} // extern "C"
+#endif

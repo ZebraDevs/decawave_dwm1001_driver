@@ -9,6 +9,14 @@
  * All rights reserved.
  *
  */
+/*
+ * @modified Carl Saldanha <csaldanha@fetchrobotics.com>
+ */
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
 #ifndef _HAL_UART_H_
 #define _HAL_UART_H_
 
@@ -79,3 +87,6 @@ void HAL_UART_SetRxCb(void (*cb_func)(int));
 
 #endif //_HAL_UART_H_
 
+#ifdef __cplusplus
+} // extern "C"
+#endif

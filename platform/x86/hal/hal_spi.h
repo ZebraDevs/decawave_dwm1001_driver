@@ -9,6 +9,15 @@
  * All rights reserved.
  *
  */
+/*
+ * @modified Carl Saldanha <csaldanha@fetchrobotics.com>
+ */
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
 #ifndef _HAL_SPI_H_
 #define _HAL_SPI_H_
 
@@ -82,3 +91,6 @@ int HAL_SPI_Rx(uint8_t* data, uint8_t* length);
 
 #endif //_HAL_SPI_H_
 
+#ifdef __cplusplus
+} // extern "C"
+#endif

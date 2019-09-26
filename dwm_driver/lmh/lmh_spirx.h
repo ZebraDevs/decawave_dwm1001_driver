@@ -17,6 +17,14 @@
  * All rights reserved.
  *
  */
+/*
+ * @modified Carl Saldanha <csaldanha@fetchrobotics.com>
+ */
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
 #ifndef _LMH_SPIRX_H_
 #define _LMH_SPIRX_H_
 
@@ -66,3 +74,6 @@ int  LMH_SPIRX_WaitForRx(uint8_t* data, uint16_t* length, uint16_t exp_length);
 
 #endif //_LMH_SPIRX_H_
 
+#ifdef __cplusplus
+} // extern "C"
+#endif
