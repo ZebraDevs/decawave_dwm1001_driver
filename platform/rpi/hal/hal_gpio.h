@@ -10,6 +10,13 @@
  * All rights reserved.
  *
  */
+/*
+ * @modified Carl Saldanha <csaldanha@fetchrobotics.com>
+ */
+#ifdef __cplusplus
+extern "C"
+{
+#endif
 #ifndef _HAL_GPIO_H_
 #define _HAL_GPIO_H_
 
@@ -53,4 +60,6 @@ int HAL_GPIO_PinRead(int pin);
 
 #endif //_HAL_GPIO_H_
 
-
+#ifdef __cplusplus
+} // extern "C"
+#endif

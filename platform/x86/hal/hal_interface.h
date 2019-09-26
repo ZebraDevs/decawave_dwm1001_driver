@@ -17,6 +17,15 @@
  * All rights reserved.
  *
  */
+/*
+ * @modified Carl Saldanha <csaldanha@fetchrobotics.com>
+ */
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+
 #ifndef _HAL_IF_H_
 #define _HAL_IF_H_
 
@@ -38,4 +47,6 @@
 #endif   
 
 #endif //_HAL_IF_H_
-
+#ifdef __cplusplus
+} // extern "C"
+#endif

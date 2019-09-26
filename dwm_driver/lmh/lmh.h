@@ -13,6 +13,13 @@
  * All rights reserved.
  *
  */
+/*
+ * @modified Carl Saldanha <csaldanha@fetchrobotics.com>
+ */
+#ifdef __cplusplus
+extern "C"
+{
+#endif
 #ifndef _LMH_H_
 #define _LMH_H_
 
@@ -106,3 +113,6 @@ int LMH_CheckRetVal(uint8_t* ret_val);
 
 #endif //_LMH_H_
 
+#ifdef __cplusplus
+} // extern "C"
+#endif

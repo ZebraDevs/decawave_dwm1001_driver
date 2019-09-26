@@ -1,3 +1,12 @@
+/*
+ * @modified Carl Saldanha <csaldanha@fetchrobotics.com>
+ */
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+
 #ifndef _DWM1001_TLV_H_
 #define _DWM1001_TLV_H_
 
@@ -101,3 +110,7 @@
 
 
 #endif //_DWM1001_TLV_H_
+
+#ifdef __cplusplus
+} // extern "C"
+#endif

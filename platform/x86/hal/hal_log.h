@@ -9,6 +9,15 @@
  * All rights reserved.
  *
  */
+/*
+ * @modified Carl Saldanha <csaldanha@fetchrobotics.com>
+ */
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
  
 #ifndef _HAL_LOG_H_
 #define _HAL_LOG_H_
@@ -45,3 +54,7 @@ void HAL_Log_DeInit(void);
 void HAL_Log(const char* format, ... );
 
 #endif //_HAL_FPRINT_H_
+
+#ifdef __cplusplus
+} // extern "C"
+#endif
